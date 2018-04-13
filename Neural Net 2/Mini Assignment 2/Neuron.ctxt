@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=weight
+comment0.target=Neuron(int[][])
+comment1.params=weight
+comment1.target=void\ setWeight(int[][])
+comment10.params=
+comment10.target=int[][]\ getPastInput()
+comment2.params=
+comment2.target=int[][]\ getWeight()
+comment3.params=desOutput
+comment3.target=void\ setDesired(int[][])
+comment4.params=
+comment4.target=int[][]\ getDesired()
+comment5.params=actOutput
+comment5.target=void\ setActual(int[][])
+comment6.params=
+comment6.target=int[][]\ getActual()
+comment7.params=input
+comment7.target=void\ setInput(int[][])
+comment8.params=
+comment8.target=int[][]\ getInput()
+comment9.params=pastInput
+comment9.target=void\ setPastInput(int[][])
+numComments=11

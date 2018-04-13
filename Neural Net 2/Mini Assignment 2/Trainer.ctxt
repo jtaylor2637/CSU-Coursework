@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=a\ b\ c\ input
+comment0.target=int[][]\ sign(int[][],\ int[][],\ int[][],\ int[][])
+comment1.params=a\ b
+comment1.target=int[][]\ multiply(int[][],\ int[][])
+comment2.params=a\ b
+comment2.target=int[][]\ scalarMulti(int[][],\ int)
+comment3.params=a
+comment3.target=int[][]\ transpose(int[][])
+comment4.params=a\ b
+comment4.target=int[][]\ add(int[][],\ int[][])
+comment5.params=a\ b
+comment5.target=int[][]\ subtract(int[][],\ int[][])
+comment6.params=a\ b
+comment6.target=boolean\ compareMatrix(int[][],\ int[][])
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

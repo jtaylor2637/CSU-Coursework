@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x
+comment0.target=void\ calError(Neuron)
+comment1.params=a\ b
+comment1.target=void\ calNewWeights(Neuron,\ Neuron)
+comment2.params=a\ b
+comment2.target=void\ reassignWeights(Neuron,\ Neuron)
+comment3.params=a\ b\ count
+comment3.target=void\ Trial(Neuron,\ Neuron,\ int)
+comment4.params=epoCount\ input1\ input2\ desired\ weight1\ weight2\ actual\ error\ final1\ final2
+comment4.target=void\ UpdateTable(int,\ int,\ int,\ int,\ double,\ double,\ int,\ int,\ double,\ double)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
