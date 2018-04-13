@@ -1,0 +1,32 @@
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\bin\Debug\Pizza Creation Application.exe.config
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza Creation Application.vbprojResolveAssemblyReference.cache
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmCrusts.resources
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmMeats.resources
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmOrder.resources
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmOther.resources
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmSauces.resources
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmVeggies.resources
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.Resources.resources
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza Creation Application.vbproj.GenerateResource.Cache
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza Creation Application.xml
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\bin\Debug\Pizza Creation Application.exe
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\bin\Debug\Pizza Creation Application.pdb
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\bin\Debug\Pizza Creation Application.xml
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza Creation Application.exe
+H:\GUI\Final Project\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza Creation Application.pdb
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\bin\Debug\Pizza Creation Application.exe.config
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza Creation Application.exe
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza Creation Application.xml
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza Creation Application.pdb
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\bin\Debug\Pizza Creation Application.exe
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\bin\Debug\Pizza Creation Application.pdb
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\bin\Debug\Pizza Creation Application.xml
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza Creation Application.vbprojResolveAssemblyReference.cache
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmCrusts.resources
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmMeats.resources
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmOrder.resources
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmOther.resources
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmSauces.resources
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.frmVeggies.resources
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza_Creation_Application.Resources.resources
+H:\GUI\Final Project\Pizza Creation Application (3)\Pizza Creation Application\Pizza Creation Application\obj\Debug\Pizza Creation Application.vbproj.GenerateResource.Cache

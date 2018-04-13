@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1BCF0F7-CDE6-4472-86F5-C20066676824}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Pizza_Creation_Application.My.MyApplication</StartupObject>
+    <RootNamespace>Pizza_Creation_Application</RootNamespace>
+    <AssemblyName>Pizza Creation Application</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Pizza Creation Application.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Pizza Creation Application.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCrusts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCrusts.Designer.vb">
+      <DependentUpon>frmCrusts.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeats.Designer.vb">
+      <DependentUpon>frmMeats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMeats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrder.Designer.vb">
+      <DependentUpon>frmOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOther.Designer.vb">
+      <DependentUpon>frmOther.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOther.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSauces.Designer.vb">
+      <DependentUpon>frmSauces.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSauces.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVeggies.Designer.vb">
+      <DependentUpon>frmVeggies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVeggies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OrderFile.vb" />
+    <Compile Include="Pizza.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmCrusts.resx">
+      <DependentUpon>frmCrusts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeats.resx">
+      <DependentUpon>frmMeats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrder.resx">
+      <DependentUpon>frmOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOther.resx">
+      <DependentUpon>frmOther.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSauces.resx">
+      <DependentUpon>frmSauces.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVeggies.resx">
+      <DependentUpon>frmVeggies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barbeque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beefpork.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buffalo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenbeef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenpork.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deepdish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handtossed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jalapenoextreme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jalapenos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jalapenospineapple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marinara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mediumpan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroomjalapenos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroompineapple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushrooms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroomsspinach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olivesjalapeno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olivesmushroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olivespineapple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olivesspinach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onionsjalapenos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onionsmushrooms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onionsolives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onionspineapple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onionsspinach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pepperoni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pepperonibeef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pepperonichicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pepperonipork.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pepperonisausage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pineapple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plaincheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pork.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sausage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sausagebeef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sausagechicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sausagepork.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smallpan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinachjalapenos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinachpineapple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thincrust.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
