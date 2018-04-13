@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DomesticAnimal()
+comment1.params=species\ weight\ vertebra\ carn\ homeTown
+comment1.target=DomesticAnimal(java.lang.String,\ int,\ boolean,\ boolean,\ java.lang.String)
+comment2.params=vertebra
+comment2.target=void\ setVertebra(boolean)
+comment3.params=homeTown
+comment3.target=void\ setHomeTown(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getHomeTown()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

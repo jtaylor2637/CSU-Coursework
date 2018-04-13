@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WildAnimal()
+comment1.params=species\ weight\ vertebra\ carn\ habitat
+comment1.target=WildAnimal(java.lang.String,\ int,\ boolean,\ boolean,\ java.lang.String)
+comment2.params=habitat
+comment2.target=void\ setHabitat(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getHabitat()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

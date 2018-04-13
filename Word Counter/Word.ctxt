@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=word\ frequency
+comment0.target=Word(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Word\r\n
+comment1.params=contents
+comment1.target=void\ setContents(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getContents()
+comment3.params=count
+comment3.target=void\ setCount(int)
+comment4.params=
+comment4.target=int\ getCount()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

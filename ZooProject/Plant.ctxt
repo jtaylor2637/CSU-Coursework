@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Plant()
+comment1.params=length\ town
+comment1.target=Plant(int,\ java.lang.String)
+comment2.params=length
+comment2.target=void\ setLength(int)
+comment3.params=town
+comment3.target=void\ setTown(java.lang.String)
+comment4.params=amount
+comment4.target=void\ feed(int)
+comment5.params=
+comment5.target=void\ doSomethingWhenFed()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

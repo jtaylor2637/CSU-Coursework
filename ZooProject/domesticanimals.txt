@@ -1,0 +1,26 @@
+1000
+Dog
+true
+true
+2
+New Jersey
+Worm
+false
+false
+1
+Amazon
+Penguin
+true
+true
+5
+Alaska
+Parrot
+false
+true
+5
+Lagos
+Skunk
+true
+true
+10
+Gutters

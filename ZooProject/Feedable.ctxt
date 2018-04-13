@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=amount
+comment0.target=void\ feed(int)
+comment1.params=
+comment1.target=void\ doSomethingWhenFed()
+numComments=2
